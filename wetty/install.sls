@@ -1,3 +1,6 @@
+nodejs-legacy:
+  pkg.installed
+
 npm:
   pkg.installed
 
