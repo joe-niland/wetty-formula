@@ -1,5 +1,10 @@
+npm:
+  pkg.installed
+
 wetty:
-  npm.installed
+  npm.installed:
+    - require:
+      - pkg: npm
 
 /etc/init/wetty.conf:
   file.copy:
