@@ -3,3 +3,4 @@
 
 include:
   - wetty.install
+  - wetty.service
